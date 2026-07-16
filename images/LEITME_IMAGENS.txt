@@ -1,0 +1,44 @@
+BRUNETTI RISTORANTE — IMAGENS DO SITE
+======================================
+
+Este ambiente de trabalho não tem acesso à rede para descarregar ficheiros
+binários (fotos), por isso não consegui gravar os .jpg diretamente dentro
+deste zip. O site (index.html) já está pronto a funcionar, porque as
+fotos são carregadas em direto a partir destes links (hotlink):
+
+1. hero_salle.jpg
+   https://webfiles4.luxweb.com/upload/mybusiness/photos/large/1b9a369b-d5ea-4594-93fb-d7284fd3d578.jpg
+
+2. interieur.jpg
+   https://webfiles.luxweb.com/upload/mybusiness/photos/large/79c61682-3ed7-462a-b5b7-125e910baae0.jpg
+
+3. pizza_forno.jpg
+   https://webfiles4.luxweb.com/upload/mybusiness/photos/large/966eb643-6df3-4418-b6c2-187486763f1c.jpg
+
+4. ambiance.jpg
+   https://webfiles2.luxweb.com/upload/mybusiness/photos/large/5e9346f8-9147-4e79-970a-0fdd1be4492e.jpg
+
+5. detalhe_mesa.jpg
+   https://webfiles.luxweb.com/upload/mybusiness/photos/large/6c3f4607-93a4-476f-82f5-adbbb98bde17.jpg
+
+COMO TER AS IMAGENS GRAVADAS LOCALMENTE (2 minutos):
+-----------------------------------------------------
+Opção A — mais simples:
+  1. Abre cada link acima no browser.
+  2. Clique direito na foto -> "Guardar imagem como..."
+  3. Guarda-as nesta pasta "images" com os nomes indicados
+     (hero_salle.jpg, interieur.jpg, etc.)
+  4. Depois volta a enviar-me estes 5 ficheiros aqui no chat e eu
+     atualizo o index.html para usar as imagens locais (pasta /images)
+     em vez dos links — fica tudo autossuficiente.
+
+Opção B — fotos melhores:
+  O Instagram @brunetti_ristorante tem provavelmente fotos mais recentes
+  e de maior qualidade do que estas (que vêm de uma ficha de diretório).
+  Se me enviares 5–8 fotos exportadas do Instagram deles, uso essas em
+  vez destas e o resultado fica ainda melhor.
+
+Enquanto isso, o site funciona perfeitamente como está — as imagens
+aparecem normalmente no browser porque são carregadas diretamente
+dos links acima (é assim que a maioria dos sites profissionais faz
+para fotos hospedadas em serviços externos).
