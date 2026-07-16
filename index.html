@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brunetti Ristorante — Cuisine italienne & bistronomie à Mersch</title>
+  <meta name="description"
+    content="Brunetti Ristorante, restaurant italien et bistronomique au cœur de Mersch. Pizza au feu de bois, pâtes fraîches maison, produits venus d'Italie.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header id="siteHeader">
+    <a href="#top" class="logo"><em>B</em>runetti <span style="font-size:.6em;opacity:.75;">Ristorante</span></a>
+    <nav class="links">
+      <a href="#maison" data-fr="La Maison" data-de="Das Haus">La Maison</a>
+      <a href="#cuisine" data-fr="Cuisine" data-de="Küche">Cuisine</a>
+      <a href="#galerie" data-fr="Galerie" data-de="Galerie">Galerie</a>
+      <a href="#experience" data-fr="Événements" data-de="Events">Événements</a>
+      <a href="#contact" data-fr="Contact" data-de="Kontakt">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang-toggle">
+        <button id="btn-fr" class="active" onclick="setLang('fr')">FR</button>
+        <button id="btn-de" onclick="setLang('de')">DE</button>
+      </div>
+      <a href="tel:+35226772166" class="btn btn-outline" style="padding:.6rem 1.1rem;" data-fr="Réserver"
+        data-de="Reservieren">Réserver</a>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <img src="https://webfiles4.luxweb.com/upload/mybusiness/photos/large/1b9a369b-d5ea-4594-93fb-d7284fd3d578.jpg"
+      alt="Brunetti Ristorante — salle du restaurant">
+    <div class="hero-content">
+      <div class="eyebrow" data-fr="Restaurant italien — Mersch, Luxembourg"
+        data-de="Italienisches Restaurant — Mersch, Luxemburg">Restaurant italien — Mersch, Luxembourg</div>
+      <h1 data-fr-html="Brunetti Ristorante<span>Cuisine italienne & élégance bistronomique</span>"
+        data-de-html="Brunetti Ristorante<span>Italienische Küche & bistronomische Eleganz</span>">Brunetti
+        Ristorante<span>Cuisine italienne & élégance bistronomique</span></h1>
+      <div class="hero-cta">
+        <a href="tel:+35226772166" class="btn btn-primary" data-fr="Réserver une table"
+          data-de="Tisch reservieren">Réserver une table</a>
+        <a href="#cuisine" class="btn btn-outline" data-fr="Découvrir la cuisine" data-de="Küche entdecken">Découvrir la
+          cuisine</a>
+      </div>
+    </div>
+    <div class="scroll-cue" data-fr="Découvrir" data-de="Entdecken">Découvrir</div>
+  </section>
+
+  <section class="maison" id="maison">
+    <div class="container maison-grid">
+      <img src="https://webfiles.luxweb.com/upload/mybusiness/photos/large/79c61682-3ed7-462a-b5b7-125e910baae0.jpg"
+        alt="Intérieur chaleureux de Brunetti Ristorante à Mersch">
+      <div class="maison-text">
+        <div class="eyebrow" data-fr="La Maison" data-de="Das Haus">La Maison</div>
+        <h2 data-fr="Une trattoria italienne, un esprit français"
+          data-de="Eine italienische Trattoria mit französischem Geist">Une trattoria italienne, un esprit français</h2>
+        <p data-fr="Au cœur de Mersch, au 19 rue Grande-Duchesse Charlotte, Morgan Brunetti et son équipe font vivre une cuisine italienne fidèle à ses racines, réchauffée par une élégance bistronomique bien française."
+          data-de="Im Herzen von Mersch, in der 19 rue Grande-Duchesse Charlotte, pflegt Morgan Brunetti mit seinem Team eine italienische Küche, die ihren Wurzeln treu bleibt und durch französische bistronomische Eleganz veredelt wird.">
+          Au cœur de Mersch, au 19 rue Grande-Duchesse Charlotte, Morgan Brunetti et son équipe font vivre une cuisine
+          italienne fidèle à ses racines, réchauffée par une élégance bistronomique bien française.</p>
+        <p data-fr="Charcuteries, fromages, huile d'olive et vins voyagent directement d'Italie jusqu'à notre table pour composer une carte sincère, généreuse et sans artifice — pâtes fraîches faites maison, pizzas au feu de bois et produits de saison."
+          data-de="Wurstwaren, Käse, Olivenöl und Weine reisen direkt aus Italien zu unserem Tisch und formen eine ehrliche, großzügige Karte ohne Schnickschnack — hausgemachte frische Pasta, Pizza aus dem Holzofen und saisonale Produkte.">
+          Charcuteries, fromages, huile d'olive et vins voyagent directement d'Italie jusqu'à notre table pour composer
+          une carte sincère, généreuse et sans artifice — pâtes fraîches faites maison, pizzas au feu de bois et
+          produits de saison.</p>
+        <div class="signature-line" data-fr="« Tradition d'un côté des Alpes, raffinement de l'autre. »"
+          data-de="„Tradition auf der einen Seite der Alpen, Raffinesse auf der anderen.“">« Tradition d'un côté des
+          Alpes, raffinement de l'autre. »
+          <small data-fr="Morgan Brunetti — Gérant" data-de="Morgan Brunetti — Geschäftsführer">Morgan Brunetti —
+            Gérant</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="forno" id="cuisine">
+    <div class="container forno-grid">
+      <div class="forno-img">
+        <img src="https://webfiles4.luxweb.com/upload/mybusiness/photos/large/966eb643-6df3-4418-b6c2-187486763f1c.jpg"
+          alt="Pizza au feu de bois de Brunetti Ristorante">
+        <div class="forno-tag" data-fr="Pâte longuement levée, cuite au feu de bois"
+          data-de="Lange geführter Teig, im Holzofen gebacken">Pâte longuement levée, cuite au feu de bois</div>
+      </div>
+      <div class="forno-text">
+        <div class="eyebrow" data-fr="Pizzeria artisanale" data-de="Handwerkliche Pizzeria">Pizzeria artisanale</div>
+        <h2>
+          <svg class="flame" viewBox="0 0 24 24">
+            <path
+              d="M12 2c1 3-2 4-2 7a3 3 0 006 0c0-1-.5-2-.5-2 2 1 3 3 3 5a6.5 6.5 0 01-13 0c0-4 3-5 4-8 .5-1 .5-1.5 2.5-2z" />
+          </svg>
+          <span data-fr="Le feu de bois, notre signature" data-de="Der Holzofen, unsere Signatur">Le feu de bois, notre
+            signature</span>
+        </h2>
+        <p data-fr="Notre four à bois est chauffé à blanc dès l'ouverture. C'est lui qui donne à chaque pizza cette croûte légèrement fumée, alvéolée, impossible à reproduire autrement — un geste artisanal transmis avec exigence."
+          data-de="Unser Holzofen wird bereits bei Öffnung auf Höchsttemperatur gebracht. Er verleiht jeder Pizza diese leicht rauchige, luftige Kruste, die sich anders nicht erreichen lässt — ein handwerklicher Prozess mit hohem Anspruch.">
+          Notre four à bois est chauffé à blanc dès l'ouverture. C'est lui qui donne à chaque pizza cette croûte
+          légèrement fumée, alvéolée, impossible à reproduire autrement — un geste artisanal transmis avec exigence.</p>
+        <p data-fr="À côté des pizzas, nos pâtes fraîches sont préparées chaque jour sur place : tagliatelles, gnocchi, ravioli — la trattoria dans toute sa générosité."
+          data-de="Neben den Pizzen wird unsere frische Pasta täglich vor Ort zubereitet: Tagliatelle, Gnocchi, Ravioli — die Trattoria in ihrer ganzen Großzügigkeit.">
+          À côté des pizzas, nos pâtes fraîches sont préparées chaque jour sur place : tagliatelles, gnocchi, ravioli —
+          la trattoria dans toute sa générosité.</p>
+        <a href="#contact" class="btn btn-primary" style="margin-top:1rem;" data-fr="Commander à emporter"
+          data-de="Zum Mitnehmen bestellen">Commander à emporter</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee-wrap">
+    <div class="marquee" id="marqueeTrack"></div>
+  </div>
+
+  <section class="carta">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow" data-fr="La Carte" data-de="Die Karte">La Carte</div>
+        <h2 data-fr="Les incontournables de la maison" data-de="Die Klassiker des Hauses">Les incontournables de la
+          maison</h2>
+        <p data-fr="Un aperçu de notre cuisine — la carte complète évolue au fil des saisons et des arrivages."
+          data-de="Ein Einblick in unsere Küche — die vollständige Karte wechselt je nach Saison und Warenankunft.">Un
+          aperçu de notre cuisine — la carte complète évolue au fil des saisons et des arrivages.</p>
+      </div>
+      <div class="carta-grid">
+        <div class="carta-card">
+          <div class="carta-num">01</div>
+          <h3 data-fr="Antipasti" data-de="Antipasti">Antipasti</h3>
+          <p data-fr="Charcuteries et fromages italiens, burrata crémeuse, bruschette et légumes de saison marinés à l'huile d'olive extra vierge."
+            data-de="Italienische Wurst- und Käsespezialitäten, cremige Burrata, Bruschette und saisonales Gemüse in nativem Olivenöl extra.">
+            Charcuteries et fromages italiens, burrata crémeuse, bruschette et légumes de saison marinés à l'huile
+            d'olive extra vierge.</p>
+        </div>
+        <div class="carta-card">
+          <div class="carta-num">02</div>
+          <h3 data-fr="Pâtes Fraîches" data-de="Frische Pasta">Pâtes Fraîches</h3>
+          <p data-fr="Tagliatelles carbonara, gnocchi maison, ravioli du jour — préparées chaque matin dans notre cuisine."
+            data-de="Tagliatelle Carbonara, hausgemachte Gnocchi, Ravioli des Tages — jeden Morgen frisch in unserer Küche zubereitet.">
+            Tagliatelles carbonara, gnocchi maison, ravioli du jour — préparées chaque matin dans notre cuisine.</p>
+        </div>
+        <div class="carta-card">
+          <div class="carta-num">03</div>
+          <h3 data-fr="Pizza au Feu de Bois" data-de="Pizza aus dem Holzofen">Pizza au Feu de Bois</h3>
+          <p data-fr="Margherita, Tullio et créations de saison, cuites en quelques minutes dans notre four traditionnel."
+            data-de="Margherita, Tullio und saisonale Kreationen, in wenigen Minuten in unserem traditionellen Ofen gebacken.">
+            Margherita, Tullio et créations de saison, cuites en quelques minutes dans notre four traditionnel.</p>
+        </div>
+        <div class="carta-card">
+          <div class="carta-num">04</div>
+          <h3 data-fr="Carne & Pesce" data-de="Fleisch & Fisch">Carne & Pesce</h3>
+          <p data-fr="Escalope milanaise, osso buco fondant, poissons du marché — la partie bistronomique de notre carte."
+            data-de="Escalope Milanese, zart geschmortes Ossobuco, Fisch vom Markt — der bistronomische Teil unserer Karte.">
+            Escalope milanaise, osso buco fondant, poissons du marché — la partie bistronomique de notre carte.</p>
+        </div>
+        <div class="carta-card">
+          <div class="carta-num">05</div>
+          <h3 data-fr="Dolci" data-de="Dolci">Dolci</h3>
+          <p data-fr="Tiramisu maison et desserts italiens traditionnels, pour finir le repas comme il se doit."
+            data-de="Hausgemachtes Tiramisu und traditionelle italienische Desserts — der perfekte Abschluss des Essens.">
+            Tiramisu maison et desserts italiens traditionnels, pour finir le repas comme il se doit.</p>
+        </div>
+        <div class="carta-card">
+          <div class="carta-num">06</div>
+          <h3 data-fr="Cave Italienne" data-de="Italienischer Weinkeller">Cave Italienne</h3>
+          <p data-fr="Une sélection de vins italiens choisis pour accompagner chaque plat, du blanc léger au rouge de caractère."
+            data-de="Eine Auswahl italienischer Weine, sorgfältig zu jedem Gericht abgestimmt — von leichten Weißweinen bis zu kräftigen Rotweinen.">
+            Une sélection de vins italiens choisis pour accompagner chaque plat, du blanc léger au rouge de caractère.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="galerie" id="galerie">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow" data-fr="Galerie" data-de="Galerie">Galerie</div>
+        <h2 data-fr="L'ambiance Brunetti" data-de="Die Brunetti-Atmosphäre">L'ambiance Brunetti</h2>
+        <p data-fr="Un cadre chaleureux et élégant, pensé pour les déjeuners entre collègues comme pour les dîners en famille."
+          data-de="Ein warmes, elegantes Ambiente — passend für das Mittagessen mit Kollegen ebenso wie für ein Abendessen mit der Familie.">
+          Un cadre chaleureux et élégant, pensé pour les déjeuners entre collègues comme pour les dîners en famille.</p>
+      </div>
+      <div class="gal-grid">
+        <a href="https://www.instagram.com/brunetti_ristorante/" target="_blank" rel="noopener"><img
+            src="https://webfiles4.luxweb.com/upload/mybusiness/photos/large/1b9a369b-d5ea-4594-93fb-d7284fd3d578.jpg"
+            alt="Salle du restaurant Brunetti"></a>
+        <a href="https://www.instagram.com/brunetti_ristorante/" target="_blank" rel="noopener"><img
+            src="https://webfiles.luxweb.com/upload/mybusiness/photos/large/79c61682-3ed7-462a-b5b7-125e910baae0.jpg"
+            alt="Intérieur chaleureux"></a>
+        <a href="https://www.instagram.com/brunetti_ristorante/" target="_blank" rel="noopener"><img
+            src="https://webfiles2.luxweb.com/upload/mybusiness/photos/large/5e9346f8-9147-4e79-970a-0fdd1be4492e.jpg"
+            alt="Ambiance Brunetti Ristorante"></a>
+        <a href="https://www.instagram.com/brunetti_ristorante/" target="_blank" rel="noopener"><img
+            src="https://webfiles4.luxweb.com/upload/mybusiness/photos/large/966eb643-6df3-4418-b6c2-187486763f1c.jpg"
+            alt="Pizza au feu de bois"></a>
+        <a href="https://www.instagram.com/brunetti_ristorante/" target="_blank" rel="noopener"><img
+            src="https://webfiles.luxweb.com/upload/mybusiness/photos/large/6c3f4607-93a4-476f-82f5-adbbb98bde17.jpg"
+            alt="Détail de la table Brunetti"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow" data-fr="Événements" data-de="Events">Événements</div>
+        <h2 data-fr="Votre table, votre moment" data-de="Ihr Tisch, Ihr Moment">Votre table, votre moment</h2>
+        <p data-fr="Repas d'équipe, anniversaires, dîners privés : nous adaptons le service à vos envies."
+          data-de="Teamessen, Geburtstage, private Abendessen: Wir passen den Service an Ihre Wünsche an.">Repas
+          d'équipe, anniversaires, dîners privés : nous adaptons le service à vos envies.</p>
+      </div>
+      <div class="exp-grid">
+        <div class="exp-card">
+          <h3 data-fr="Terrasse" data-de="Terrasse">Terrasse</h3>
+          <p data-fr="Une terrasse agréable au cœur de Mersch, idéale pour prolonger le repas aux beaux jours."
+            data-de="Eine angenehme Terrasse im Herzen von Mersch — ideal, um das Essen an schönen Tagen zu verlängern.">
+            Une terrasse agréable au cœur de Mersch, idéale pour prolonger le repas aux beaux jours.</p>
+        </div>
+        <div class="exp-card">
+          <h3 data-fr="Privatisation" data-de="Privatveranstaltungen">Privatisation</h3>
+          <p data-fr="Le restaurant se privatise pour vos événements professionnels ou personnels, en petit ou grand comité."
+            data-de="Das Restaurant kann für berufliche oder private Veranstaltungen exklusiv gebucht werden — im kleinen oder großen Kreis.">
+            Le restaurant se privatise pour vos événements professionnels ou personnels, en petit ou grand comité.</p>
+        </div>
+        <div class="exp-card">
+          <h3 data-fr="Take Away" data-de="Zum Mitnehmen">Take Away</h3>
+          <p data-fr="Toute la carte disponible à emporter, pour retrouver la cuisine Brunetti chez vous."
+            data-de="Die gesamte Karte auch zum Mitnehmen — genießen Sie die Brunetti-Küche bei sich zu Hause.">Toute la
+            carte disponible à emporter, pour retrouver la cuisine Brunetti chez vous.</p>
+        </div>
+      </div>
+      <div class="quote">
+        <p data-fr="« Repas d'équipe mémorable : accueil chaleureux, service attentif et une pizza qui restera dans les mémoires. Nous reviendrons avec plaisir. »"
+          data-de="„Ein unvergessliches Teamessen: herzlicher Empfang, aufmerksamer Service und eine Pizza, die in Erinnerung bleibt. Wir kommen gerne wieder.“">
+          « Repas d'équipe mémorable : accueil chaleureux, service attentif et une pizza qui restera dans les mémoires.
+          Nous reviendrons avec plaisir. »</p>
+        <div class="who" data-fr="Avis d'un client — Google" data-de="Kundenbewertung — Google">Avis d'un client —
+          Google</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <div class="eyebrow" data-fr="Contact" data-de="Kontakt">Contact</div>
+        <h2 data-fr="Venez nous voir à Mersch" data-de="Besuchen Sie uns in Mersch">Venez nous voir à Mersch</h2>
+
+        <div class="info-row">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8zm0 11a3 3 0 110-6 3 3 0 010 6z" />
+          </svg>
+          <div>
+            <div class="label" data-fr="Adresse" data-de="Adresse">Adresse</div>
+            <a class="value"
+              href="https://www.google.com/maps/place/Brunetti+Ristorante/@49.7502,5.4965988,10z/data=!4m10!1m2!2m1!1sRestaurants!3m6!1s0x479551c77f9a20e1:0x9c5544a450540523"
+              target="_blank" rel="noopener">19 Rue Grande-Duchesse Charlotte, L-7520 Mersch, Luxembourg</a>
+          </div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.3 2.2z" />
+          </svg>
+          <div>
+            <div class="label" data-fr="Téléphone" data-de="Telefon">Téléphone</div>
+            <a class="value" href="tel:+35226772166">+352 26 77 21 66</a>
+          </div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 7a5 5 0 100 10 5 5 0 000-10zm0 8.2a3.2 3.2 0 110-6.4 3.2 3.2 0 010 6.4zM17.5 6a1.1 1.1 0 100 2.2 1.1 1.1 0 000-2.2zM21.9 7.4a7.7 7.7 0 00-.5-2.6 5.3 5.3 0 00-3-3 7.7 7.7 0 00-2.6-.5C14.6 1.2 13.9 1.2 12 1.2s-2.6 0-3.8.1a7.7 7.7 0 00-2.6.5 5.3 5.3 0 00-3 3 7.7 7.7 0 00-.5 2.6C2 8.6 2 9.3 2 12s0 3.4.1 4.6c0 1 .2 1.8.5 2.6a5.3 5.3 0 003 3c.8.3 1.6.5 2.6.5C9.4 22.8 10.1 22.8 12 22.8s2.6 0 3.8-.1a7.7 7.7 0 002.6-.5 5.3 5.3 0 003-3c.3-.8.5-1.6.5-2.6.1-1.2.1-1.9.1-4.6s0-2.6-.1-3.8z" />
+          </svg>
+          <div>
+            <div class="label" data-fr="Instagram" data-de="Instagram">Instagram</div>
+            <a class="value" href="https://www.instagram.com/brunetti_ristorante/" target="_blank"
+              rel="noopener">@brunetti_ristorante</a>
+          </div>
+        </div>
+        <div class="info-row" style="border-bottom:none;align-items:flex-start;">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 10.4l4.2 2.5-.7 1.2-5-3V6h1.5v6.4z" />
+          </svg>
+          <div>
+            <div class="label" data-fr="Horaires" data-de="Öffnungszeiten">Horaires</div>
+            <div class="value" style="line-height:1.9;">
+              <div><span data-fr="Lundi" data-de="Montag">Lundi</span> — <span data-fr="Fermé"
+                  data-de="Geschlossen">Fermé</span></div>
+              <div><span data-fr="Mardi" data-de="Dienstag">Mardi</span> — 12:00–14:30, 18:30–23:00</div>
+              <div><span data-fr="Mercredi" data-de="Mittwoch">Mercredi</span> — 11:30–15:00, 18:30–23:30</div>
+              <div><span data-fr="Jeudi" data-de="Donnerstag">Jeudi</span> — 12:00–15:00, 18:30–23:30</div>
+              <div><span data-fr="Vendredi" data-de="Freitag">Vendredi</span> — 12:00–14:30, 18:30–00:00</div>
+              <div><span data-fr="Samedi" data-de="Samstag">Samedi</span> — 12:00–14:30, 18:30–00:00</div>
+              <div><span data-fr="Dimanche" data-de="Sonntag">Dimanche</span> — <span data-fr="Fermé"
+                  data-de="Geschlossen">Fermé</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="socials">
+          <a href="https://www.instagram.com/brunetti_ristorante/" target="_blank" rel="noopener"
+            aria-label="Instagram">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 7a5 5 0 100 10 5 5 0 000-10zm0 8.2a3.2 3.2 0 110-6.4 3.2 3.2 0 010 6.4zM17.5 6a1.1 1.1 0 100 2.2 1.1 1.1 0 000-2.2zM21.9 7.4a7.7 7.7 0 00-.5-2.6 5.3 5.3 0 00-3-3 7.7 7.7 0 00-2.6-.5C14.6 1.2 13.9 1.2 12 1.2s-2.6 0-3.8.1a7.7 7.7 0 00-2.6.5 5.3 5.3 0 00-3 3 7.7 7.7 0 00-.5 2.6C2 8.6 2 9.3 2 12s0 3.4.1 4.6c0 1 .2 1.8.5 2.6a5.3 5.3 0 003 3c.8.3 1.6.5 2.6.5C9.4 22.8 10.1 22.8 12 22.8s2.6 0 3.8-.1a7.7 7.7 0 002.6-.5 5.3 5.3 0 003-3c.3-.8.5-1.6.5-2.6.1-1.2.1-1.9.1-4.6s0-2.6-.1-3.8z" />
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/people/Brunetti-Ristorante-Mersch/61584817633515/" target="_blank"
+            rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2a10 10 0 00-1.6 19.9v-6.5H8v-2.7h2.4V10.7c0-2.4 1.4-3.7 3.6-3.7 1 0 2 .2 2 .2v2.3h-1.2c-1.2 0-1.5.7-1.5 1.5v1.8H16l-.4 2.7h-2.2v6.5A10 10 0 0012 2z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <iframe class="map-frame" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=Brunetti+Ristorante+19+Rue+Grande-Duchesse+Charlotte+L-7520+Mersch+Luxembourg&output=embed">
+      </iframe>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="foot-grid">
+        <div class="foot-logo">Brunetti Ristorante</div>
+        <div class="foot-nav">
+          <a href="#maison" data-fr="La Maison" data-de="Das Haus">La Maison</a>
+          <a href="#cuisine" data-fr="Cuisine" data-de="Küche">Cuisine</a>
+          <a href="#galerie" data-fr="Galerie" data-de="Galerie">Galerie</a>
+          <a href="#experience" data-fr="Événements" data-de="Events">Événements</a>
+          <a href="#contact" data-fr="Contact" data-de="Kontakt">Contact</a>
+        </div>
+      </div>
+      <div class="foot-bottom"
+        data-fr="© 2026 Brunetti Ristorante — 19 Rue Grande-Duchesse Charlotte, L-7520 Mersch, Luxembourg"
+        data-de="© 2026 Brunetti Ristorante — 19 Rue Grande-Duchesse Charlotte, L-7520 Mersch, Luxemburg">© 2026
+        Brunetti Ristorante — 19 Rue Grande-Duchesse Charlotte, L-7520 Mersch, Luxembourg</div>
+    </div>
+  </footer>
+
+  <script>
+    // Header scroll state
+    const header = document.getElementById('siteHeader');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Ingredient marquee (built in JS so it's easy to loop seamlessly)
+    const ingredients = ["Parmigiano Reggiano", "Basilico Fresco", "Mozzarella di Bufala", "Tartufo Nero", "Olio Extravergine", "San Marzano", "Prosciutto di Parma", "Vino Italiano"];
+    const track = document.getElementById('marqueeTrack');
+    const loopContent = ingredients.map(i => `<span>${i}</span>`).join('');
+    track.innerHTML = loopContent + loopContent;
+
+    // Language toggle
+    function setLang(lang) {
+      document.documentElement.lang = lang;
+      document.querySelectorAll('[data-fr]').forEach(el => {
+        const html = el.getAttribute('data-' + lang + '-html');
+        if (html || el.hasAttribute('data-fr-html')) {
+          el.innerHTML = el.getAttribute('data-' + lang + '-html') || el.getAttribute('data-fr-html');
+        } else {
+          el.textContent = el.getAttribute('data-' + lang) || el.getAttribute('data-fr');
+        }
+      });
+      document.getElementById('btn-fr').classList.toggle('active', lang === 'fr');
+      document.getElementById('btn-de').classList.toggle('active', lang === 'de');
+      try { localStorage.setItem('brunetti_lang', lang); } catch (e) { }
+    }
+    (function () {
+      let saved = 'fr';
+      try { saved = localStorage.getItem('brunetti_lang') || 'fr'; } catch (e) { }
+      setLang(saved);
+    })();
+  </script>
+</body>
+
+</html>
